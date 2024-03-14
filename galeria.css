@@ -1,0 +1,145 @@
+    .galeria {
+      margin-top: 45px;
+    }
+
+    .galeria .titulo-grupo {
+      font-size: 30px;
+    }
+
+    .img-galeria {
+      object-fit: cover;
+      margin-bottom: 20px;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+
+    .img-galeria:hover {
+      transform: scale(1.02);
+    }
+
+    .img-galeria-grande {
+      height: 300px;
+    }
+
+    .img-galeria-chica {
+      height: 180px;
+    }
+
+    .galeria .contenedor {
+      padding-left: 60px;
+      padding-right: 60px;
+      margin-bottom: 30px;
+    }
+
+    .modal {
+      width: 100%;
+      min-height: 100vh;
+      background-color: rgba(0,0,0,0.9);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 3000;
+      display: none;
+    }
+
+    .contenido-modal {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .img-modal {
+      width: 90%;
+    }
+
+    .modal-btn {
+      position: absolute;
+      top: 70px;
+      right: 10px;
+      color: white;
+      cursor: pointer;
+      font-weight: bold;
+      width: 50px;
+      height: 50px;
+      line-height: 50px;
+      background-color: #2239D4;
+      font-size: 32px;
+      text-align: center;
+      border-radius: 50%;
+      font-family: monospace;
+    }
+
+    .modal-open {
+      display: block;
+    }
+
+    @media screen and (min-width:480px) {
+     .img-modal {
+       width: 50%;
+    }
+        
+    .galeria .titulo-grupo {
+      font-size: 40px;
+    }
+        
+    }
+
+@media screen and (min-width:480px) {
+    .img-galeria-grande {
+       height: 120px;
+    }
+
+    .img-galeria-chica {
+       height: 180px;
+    }
+       
+    }
+
+ @media screen and (min-width:768px) {
+   .img-galeria-grande {
+       height: 80px;
+    }
+
+    .img-galeria-chica {
+       height: 180px;
+    }
+        
+   }
+ 
+@media screen and (min-width:1024px) {
+      .img-galeria-grande {
+       height: 300px;
+    }
+
+    .img-galeria-chica {
+       height: 180px;
+    }
+    
+   }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
